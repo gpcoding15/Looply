@@ -12,4 +12,6 @@ main {
   border-radius: 3px;
   width: 100vw;
   max-width: 375px;
+  position: relative;
+  overflow: hidden;
 }

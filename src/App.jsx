@@ -1,10 +1,12 @@
 import './App.css'
+import { VideoPlayer } from './components/VideoPlayer'
 
 export const App = () => {
   return (
     <div className='App'>
-      <h1 className='title'>Looply</h1>
-      <main />
+      <main>
+        <VideoPlayer />
+      </main>
     </div>
   )
 }
